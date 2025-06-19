@@ -25,5 +25,21 @@ dist-ssr
 
 *storybook.log
 storybook-static
-api
+.storybook
+
 .env
+.prettierrc.json
+
+elint.config.mjs
+client/package-lock.json
+client/package.json
+client/vite.config.js
+client/vitest.shims.d.ts
+
+package.json
+package-lock.json
+node_modules
+client/tailwind.config.js
+client/postcss.config.js
+vite.config.js
+vitest.shims.d.ts
