@@ -20,6 +20,12 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  profilePicture:{
+    type: String,
+    default:
+        'https://static.vecteezy.com/system/resources/previews/005/129/844/non_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg',
+  },
+
 }, { timestamps: true });
 
 // Pre-save hook to hash password
